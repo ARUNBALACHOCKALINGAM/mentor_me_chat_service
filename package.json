@@ -1,0 +1,29 @@
+{
+  "name": "mentor_me_chat_service",
+  "version": "1.0.0",
+  "description": "MentorMe chat service",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARUNBALACHOCKALINGAM/mentor_me_chat_service.git"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.5",
+    "socket.io": "^4.8.1"
+  },
+  "author": "ARUNBALACHOCKALINGAM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ARUNBALACHOCKALINGAM/mentor_me_chat_service/issues"
+  },
+  "homepage": "https://github.com/ARUNBALACHOCKALINGAM/mentor_me_chat_service#readme"
+}
